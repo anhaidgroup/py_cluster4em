@@ -8,7 +8,7 @@ As an example, you could output clusters out of the below given matches file sam
 ## Usage:
 You could call the script as follows:\
 ```python py_cluster4em.py matches.csv leftIdColumnName rightIdColumnName floatThreshold output_liberal.json output_conservative.json```\
-where\
+where all of the below arguments are required.
 * matches.csv: Name of the csv file containing the matches.
 * leftIdColumnName: Name of the column containing the left side of the matching ids.
 * rightIdColumnName: Name of the column containing the right side of the matching ids.
