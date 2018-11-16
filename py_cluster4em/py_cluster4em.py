@@ -108,7 +108,7 @@ r_id = sys.argv[3]
 score = sys.argv[4]
 threshold = float(sys.argv[5])
 output_file_liberal = sys.argv[6]
-output_file_conservative = sys.argv[6]
+output_file_conservative = sys.argv[7]
 
 # Reading file
 M = pd.read_csv(input_file, usecols=[l_id, r_id, score])
