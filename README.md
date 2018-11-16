@@ -16,7 +16,7 @@ where all of the below arguments are required.
 * output_liberal.json, output_conservative.json: File names to store the output of liberal and conservative approaches respectively.
 
 ## Types of clustering approaches supported:
-All clustering approaches assume a graph representation of matches where nodes are the different ids and the labelled edges represent a match between the two with a certain score(label).
+All clustering approaches assume a graph representation of matches where nodes are the different ids and the labelled edges represent a match between the two with a certain score.
 
 1. Liberal Clustering: Generates the clusters out of the connected components in the matches graph.
 
