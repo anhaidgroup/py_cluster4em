@@ -18,11 +18,9 @@ where\
 ## Types of clustering approaches supported:
 All clustering approaches assume a graph representation of matches where nodes are the different ids and the labelled edges represent a match between the two with a certain score(label).
 
-1. Liberal Clustering:  
-This type of clustering means making the clusters out of the connected components in the matches graph.
+1. Liberal Clustering: Generates the clusters out of the connected components in the matches graph.
 
-2. Conservative Clustering:
-This type of clustering makes the clusters out of the maximal cliques in the matches graph.
+2. Conservative Clustering: Generates the clusters out of the maximal cliques in the matches graph.
 
 
 
