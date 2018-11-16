@@ -5,7 +5,7 @@ It provides different clustering approaches that you could take to generate clus
 As an example, you could output clusters out of the below given matches file sample:\
 *insert example here*
 
-## How to use:
+## Usage:
 You could call the script as follows:\
 ```python py_cluster4em.py matches.csv leftIdColumnName rightIdColumnName floatThreshold output_liberal.json output_conservative.json```\
 where\
