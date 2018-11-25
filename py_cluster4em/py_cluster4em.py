@@ -128,4 +128,3 @@ liberal_clustering(G, output_file_liberal)
 print('Conservative Approach Clusters: ')
 serialization_factor = 10000 # should we bring this in too from the user?
 conservative_clustering(G, output_file_conservative, serialization_factor)
-
