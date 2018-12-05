@@ -21,14 +21,14 @@ Given a matches dataframe(native or after loading from a csv using pandas) with 
 You could use one of the two supported approaches from: \
 py_cluster4em/py_cluster4em/clustercreators/cluster_conservative.py \
 or \
-py_cluster4em/py_cluster4em/clustercreators/cluster_liberal.py \
+py_cluster4em/py_cluster4em/clustercreators/cluster_liberal.py 
 
 As mentioned in their respective docstrings, you'll need to pass in one more required argument:
 * threshold_score: Represents the threshold score. Only matches having score greater than this threshold will be considered as actual matches.
-\
+
 Example:
 As also specified in the file py_cluster4em/py_cluster4em/clustercreators/py_cluster4em.py
-\
+
 ```
 # Reading file
 import pandas as pd
@@ -43,7 +43,6 @@ from clustercreators.cluster_liberal import cluster_liberal
 cluster_liberal(M, l_id, r_id, score, threshold)
 cluster_conservative(M, l_id, r_id, score, threshold)
 ```
-\
 
 
 ## Dependencies
