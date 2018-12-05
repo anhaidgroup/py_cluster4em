@@ -1,9 +1,7 @@
 # py_cluster4em
 py_cluster4em is a Python package for performing clustering. 
-It provides different clustering approaches that you could take to generate clusters out of a matches file. 
+It provides different clustering approaches that you could take to generate clusters out of matches.
 
-As an example, you could output clusters out of the below given matches file sample:\
-*insert example here*
 
 ## Types of clustering approaches supported
 All clustering approaches assume a graph representation of matches where nodes are the different ids and the labelled edges represent a match between the two with a certain score.
